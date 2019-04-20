@@ -6,6 +6,9 @@ function arrayToList(array) {
     if (index === array.length - 1) return { value: array[index], rest: null };
     else {
       list.value = array[index];
+      
+      
+//       jhkjhkjhkjhkjhkj
       list.rest = inner(index + 1);
       return list;
     }
