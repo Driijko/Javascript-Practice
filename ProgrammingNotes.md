@@ -2,7 +2,7 @@
 
 ## Markdown Notes
 
-Use hashtags to mark headers.
+Use hashtags to mark headers.  
 Use a dash to make bullet points:
 
 - wow cool
@@ -19,7 +19,7 @@ function averageValue(array) {
 
 ## Git Notes
 
-git status
-git add "Filename"
-git commit -m "message"
+git status  
+git add "Filename"  
+git commit -m "message"  
 git push origin master
