@@ -1,0 +1,34 @@
+<!-- 
+  This program was built based on an excercise from HackerRank's 10 Days of Javascript challenge.
+  It creates a button labeled '0' and updates that label by 1 every time it is clicked.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Button</title>
+    <style>
+      #btn {
+        width: 200px;
+        height: 48px;
+        font-size: 24px;
+      }
+    </style>
+    >
+  </head>
+  <body>
+    <script>
+      let btn = document.createElement("button");
+      btn.id = "btn";
+      btn.innerHTML = "0";
+      btn.style.background = "#4FFF8F";
+      document.body.appendChild(btn);
+
+      let btnNum = 0;
+      btn.onclick = function() {
+        btnNum += 1;
+        btn.innerHTML = String(btnNum);
+      };
+    </script>
+  </body>
+</html>
